@@ -1,0 +1,10 @@
+{
+  "latest": {
+    "message": "A new update is available.",
+    "id": "1.0.4"
+  },
+  "latest_required": {
+    "message": "A new required update is available. You must install it now.",
+    "id": "1.0.3"
+  }
+}
