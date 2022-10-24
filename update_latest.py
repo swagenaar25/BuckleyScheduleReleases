@@ -8,4 +8,4 @@ with open("versions/latest.json") as f:
 print(f"Update latest from {dat['latest']} to {ver}")
 dat["latest"] = ver
 with open("versions/latest.json", "w") as f:
-    json.dump(dat, f)
+    json.dump(dat, f, indent=2)
