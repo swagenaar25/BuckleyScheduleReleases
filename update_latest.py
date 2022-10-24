@@ -1,7 +1,7 @@
 import sys
 import json
 
-ver = sys.argv[1]
+ver = sys.argv[1].removeprefix("v")
 with open("versions/latest.json") as f:
     dat = json.load(f)
 
